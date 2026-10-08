@@ -1,6 +1,7 @@
 {
   "name": "potoken-generator",
   "version": "1.0.0",
+  "type": "module",
   "description": "Serverless YouTube PoToken & VisitorData generator for Lavalink and SolaceAudio",
   "main": "api/token.js",
   "scripts": {
@@ -19,7 +20,7 @@
   "author": "Nex-Devz",
   "license": "MIT",
   "dependencies": {
-    "bgutils-js": "^0.2.1",
-    "express": "^4.19.2"
+    "bgutils-js": "^4.0.3",
+    "express": "^4.22.3"
   }
 }
